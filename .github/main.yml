@@ -1,0 +1,32 @@
+name: Update
+
+on:
+  push:
+  schedule:
+    - cron: "0 02 * * 1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: franzliedke/gh-action-php@master
+          
+      - name: Run PHP script
+        run: php ./coins.php && php ./exchanges.php
+          
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Images updated" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: main

@@ -1,0 +1,32 @@
+# Microsoft VScode
+.vscode/*
+.history/
+
+# JetBrains IDE
+idea/*
+
+# .ENV
+.env
+
+# PHP
+/vendor/
+
+# NodeJS
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini

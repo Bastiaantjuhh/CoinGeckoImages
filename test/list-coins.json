@@ -1,0 +1,32 @@
+[
+    {
+      "id": "ethereum",
+      "symbol": "eth",
+      "name": "Ethereum"
+    },
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin"
+    },
+    {
+      "id": "bitcoin-cash",
+      "symbol": "bch",
+      "name": "Bitcoin Cash"
+    },
+    {
+      "id": "bitcoin-cash-sv",
+      "symbol": "bsv",
+      "name": "Bitcoin SV"
+    },
+    {
+      "id": "polkadot",
+      "symbol": "dot",
+      "name": "Polkadot"
+    },
+    {
+      "id": "tether",
+      "symbol": "usdt",
+      "name": "Tether"
+    }
+]
