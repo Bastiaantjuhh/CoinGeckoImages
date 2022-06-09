@@ -1,4 +1,7 @@
 # CoinGeckoImages
+
+![Update](https://github.com/Bastiaantjuhh/CoinGeckoImages/actions/workflows/main.yml/badge.svg?branch=main)
+
 Small PHP CLI script for downloading all crypto coin and exchanges logos from CoinGecko. All images are also in the repo an can be used. Updated every monday morning. All images are now in PNG format.
 
 ## Table of content
@@ -30,6 +33,7 @@ Open issues | ![GitHub issues](https://img.shields.io/github/issues/Bastiaantjuh
 Closed issues | ![GitHub closed issues](https://img.shields.io/github/issues-closed/Bastiaantjuhh/CoinGeckoImages)
 Pull requests | ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Bastiaantjuhh/CoinGeckoImages)
 Closed pull requests | ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Bastiaantjuhh/CoinGeckoImages)
+GitHub Workflow | ![Update](https://github.com/Bastiaantjuhh/CoinGeckoImages/actions/workflows/main.yml/badge.svg?branch=main)
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Bastiaantjuhh/CoinGeckoImages/blob/master/LICENSE). You are encouraged to embed the project into your other projects, as long as the license permits.
