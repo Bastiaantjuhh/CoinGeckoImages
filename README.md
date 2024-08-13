@@ -1,5 +1,8 @@
 # CoinGeckoImages
 
+## Repo is deprecated. Script might still work, but you'll hit a rate limit on the API endpoint in seconds
+
+
 ![Update](https://github.com/Bastiaantjuhh/CoinGeckoImages/actions/workflows/main.yml/badge.svg?branch=main)
 
 Small PHP CLI script for downloading all crypto coin and exchanges logos from CoinGecko. All images are also in the repo an can be used. Updated every monday morning. All images are now in PNG format.
